@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -29,13 +30,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="552">
+              <caret line="205" column="36" lean-forward="true" selection-start-line="205" selection-start-column="36" selection-end-line="205" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>junit</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583823777323</updated>
-      <workItem from="1583823781996" duration="1164000" />
+      <workItem from="1583823781996" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目&amp;添加阿里云Maven库">
       <created>1583823921435</created>
@@ -130,11 +136,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583824804048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="去掉多余module标签">
+      <created>1583825008566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583825008566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1164000" />
+    <option name="totallyTimeSpent" value="1778000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -159,6 +172,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32884097" />
       <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,7 +198,8 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="初始化项目&amp;添加阿里云Maven库" />
     <MESSAGE value="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库" />
+    <MESSAGE value="去掉多余module标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉多余module标签" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml">
@@ -239,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="552">
+          <caret line="205" column="36" lean-forward="true" selection-start-line="205" selection-start-column="36" selection-end-line="205" selection-end-column="36" />
         </state>
       </provider>
     </entry>

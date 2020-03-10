@@ -14,7 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ssm_utils" target="1.5" />
+      <module name="ssm_utils" target="1.8" />
       <module name="ssm_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
