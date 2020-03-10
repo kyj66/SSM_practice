@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="" />
+    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ssm_dao/target/" />
@@ -53,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/itheima/ssm/domain/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+            <state relative-caret-position="293">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#909#910#0" expanded="true" />
                 <element signature="e#939#940#0" expanded="true" />
@@ -76,7 +80,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/itheima/ssm/dao/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -96,6 +131,8 @@
         <option value="$PROJECT_DIR$/ssm_web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/itheima/ssm/domain/Product.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/itheima/ssm/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java" />
       </list>
     </option>
   </component>
@@ -129,37 +166,20 @@
             <path>
               <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583823777323</updated>
-      <workItem from="1583823781996" duration="2457000" />
+      <workItem from="1583823781996" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目&amp;添加阿里云Maven库">
       <created>1583823921435</created>
@@ -229,11 +249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583825624097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加Product实体类">
+      <created>1583826311190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826311190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2457000" />
+    <option name="totallyTimeSpent" value="2734000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -252,7 +279,7 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -287,7 +314,8 @@
     <MESSAGE value="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库" />
     <MESSAGE value="去掉多余module标签" />
     <MESSAGE value="添加工程依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加工程依赖" />
+    <MESSAGE value="添加Product实体类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Product实体类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml">
@@ -302,13 +330,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -361,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/itheima/ssm/domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        <state relative-caret-position="293">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#909#910#0" expanded="true" />
             <element signature="e#939#940#0" expanded="true" />
@@ -376,6 +397,33 @@
             <element signature="e#1861#1862#0" expanded="true" />
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1973#1974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/itheima/ssm/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

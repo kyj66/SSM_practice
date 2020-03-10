@@ -24,5 +24,13 @@
             </snapshots>
         </repository>
     </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>com.itheima.ssm_practice</groupId>
+            <artifactId>ssm_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
