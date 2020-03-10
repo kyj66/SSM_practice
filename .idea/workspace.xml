@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="">
+    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="实现Product的service接口">
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,8 +95,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +122,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,6 +145,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/itheima/ssm/domain/Product.java" />
         <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/itheima/ssm/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java" />
       </list>
     </option>
@@ -181,6 +195,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,7 +250,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583823777323</updated>
-      <workItem from="1583823781996" duration="2734000" />
+      <workItem from="1583823781996" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目&amp;添加阿里云Maven库">
       <created>1583823921435</created>
@@ -256,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583826311190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="初始化Product的service,dao接口">
+      <created>1583826579974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583826579974</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2734000" />
+    <option name="totallyTimeSpent" value="3020000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -279,7 +317,7 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -289,6 +327,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Console" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.32884097" />
@@ -315,7 +354,9 @@
     <MESSAGE value="去掉多余module标签" />
     <MESSAGE value="添加工程依赖" />
     <MESSAGE value="添加Product实体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Product实体类" />
+    <MESSAGE value="初始化Product的service,dao接口" />
+    <MESSAGE value="实现Product的service接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现Product的service接口" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml">
@@ -418,10 +459,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/it/heima/ssm/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
