@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="初始化项目&amp;添加阿里云Maven库">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="278195a0-2ec1-4768-94b2-aa87c9e5f22a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -38,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="174">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -54,12 +43,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_dao/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_domain/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_service/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_utils/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -89,16 +78,6 @@
             <path>
               <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583823777323</updated>
-      <workItem from="1583823781996" duration="886000" />
+      <workItem from="1583823781996" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目&amp;添加阿里云Maven库">
       <created>1583823921435</created>
@@ -144,11 +123,27 @@
       <option name="project" value="LOCAL" />
       <updated>1583823921435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库">
+      <created>1583824804048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583824804048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="886000" />
+    <option name="totallyTimeSpent" value="1164000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -172,7 +167,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -188,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="初始化项目&amp;添加阿里云Maven库" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目&amp;添加阿里云Maven库" />
+    <MESSAGE value="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化dao,domain,service,utils,web的Maven模块&amp;添加阿里云Maven库" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml">
@@ -203,13 +199,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="20" selection-start-line="20" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -243,8 +232,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="149">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
