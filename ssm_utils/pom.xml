@@ -2,21 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ssm_practice</artifactId>
+        <groupId>com.itheima.ssm_practice</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.itheima.ssm_practice</groupId>
-    <artifactId>ssm_practice</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>ssm_dao</module>
-        <module>ssm_service</module>
-        <module>ssm_domain</module>
-        <module>ssm_utils</module>
-        <module>ssm_web</module>
-        <module>ssm_utils</module>
-        <module>ssm_web</module>
-    </modules>
+    <artifactId>ssm_utils</artifactId>
 
     <repositories>
         <repository>
@@ -31,6 +24,5 @@
             </snapshots>
         </repository>
     </repositories>
-
 
 </project>
