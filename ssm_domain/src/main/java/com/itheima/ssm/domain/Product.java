@@ -1,22 +1,18 @@
 package com.itheima.ssm.domain;
 
-import java.util.Date;
 
-/**
- * 产品信息
- */
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
 
   private String id;
   private String productNum;
   private String productName;
   private String cityName;
-  private Date departureTime;
-  private String departureTimeStr;
+  private java.sql.Timestamp departureTime;
   private double productPrice;
   private String productDesc;
-  private Integer productStatus;
-  private String productStatusStr;
+  private long productStatus;
 
 
   public String getId() {
@@ -54,13 +50,15 @@ public class Product {
     this.cityName = cityName;
   }
 
-  public Date getDepartureTime() {
+
+  public java.sql.Timestamp getDepartureTime() {
     return departureTime;
   }
 
-  public void setDepartureTime(Date departureTime) {
+  public void setDepartureTime(java.sql.Timestamp departureTime) {
     this.departureTime = departureTime;
   }
+
 
   public double getProductPrice() {
     return productPrice;
@@ -80,27 +78,12 @@ public class Product {
   }
 
 
-  public Integer getProductStatus() {
+  public long getProductStatus() {
     return productStatus;
   }
 
-  public void setProductStatus(Integer productStatus) {
+  public void setProductStatus(long productStatus) {
     this.productStatus = productStatus;
   }
 
-  public String getDepartureTimeStr() {
-    return departureTimeStr;
-  }
-
-  public void setDepartureTimeStr(String departureTimeStr) {
-    this.departureTimeStr = departureTimeStr;
-  }
-
-  public String getProductStatusStr() {
-    return productStatusStr;
-  }
-
-  public void setProductStatusStr(String productStatusStr) {
-    this.productStatusStr = productStatusStr;
-  }
 }

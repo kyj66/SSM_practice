@@ -36,6 +36,7 @@
         </repository>
     </repositories>
 
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -48,6 +49,14 @@
             <artifactId>ssm_service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.itheima.ssm_practice</groupId>
+            <artifactId>ssm_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -85,5 +94,20 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8888</port>
+                </configuration>
+
+                <version>2.2</version>
+            </plugin>
+        </plugins>
+
     </build>
+
+
 </project>
